@@ -18,18 +18,20 @@ For(int i = 0; i < numeros.size(); i++) {
 soma += numeros.get(i);
 
 If(numeros.get(i) % 2 == 0) {
-pares++
-} else {impares++
+pares++;
+} else {impares++;
 }
 If(numeros.get(i) > maior) { maior = numeros.get(i);
 }
 If(numeros.get(i) < menor) { menor = numeros.get(i);
 }
 }
-System.out.printIn("quantidade de pares: "+ pares);
+System.out.println("quantidade de pares: "+ pares);
 
-System.out.printIn("quantidade de impares": + impares);
+System.out.println("quantidade de impares: " + impares);
 
-System.out.printIn("soma total: "+ soma);
+System.out.println("soma total: "+ soma);
 
 System.out.println("maior numero: "+ maior);
+
+system.out.println("menor numero: "+menor);
